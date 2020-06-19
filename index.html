@@ -1,12 +1,46 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-
+    <meta charset="utf-8">
+    <title>Reading List App</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <script src="js/app.js"></script>
 </head>
 
 <body>
+    <form id="new-item-form">
+        <div id="form-wrapper">
+          <div class="form-item">
+            <label for="title" class="primary">Starter</label>
+            <input type="text" id="title" required/>
+          </div>
+          
+          <form id="new-item-form">
+            <div id="form-wrapper">
+              <div class="form-item">
+                <label for="title" class="primary">Main Course</label>
+                <input type="text" id="title" required/>
+              </div>
+        
+              <form id="new-item-form">
+                <div id="form-wrapper">
+                  <div class="form-item">
+                    <label for="title" class="primary">Dessert</label>
+                    <input type="text" id="title" required/>
+                  </div>
 
+                  <div class="form-item">
+                    <label for="wine-list" class="primary">Wine List</label>
+                    <select id="wine-list">
+                      <option value="" disabled selected></option>
+                      <option value="Red">Red</option>
+                      <option value="White">White</option>
+                      <option value="Rose">Rose</option>
+                    </select>
+                  </div>
+                </div>
+                <input type="submit" value="save"/>
+              </form> 
 
-    
 </body>
 </html>
