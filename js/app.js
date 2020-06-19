@@ -15,5 +15,7 @@ const handleNewItemFormSubmit = function (event) {
 
 const createPartyListItem = function (form) {
     const partyListItem = document.createElement('li');
-    
+    partyListItem.classList.add('party-list-item');
+
+    return partyListItem;
 }
