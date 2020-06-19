@@ -17,5 +17,9 @@ const createPartyListItem = function (form) {
     const partyListItem = document.createElement('li');
     partyListItem.classList.add('party-list-item');
 
+    const name = document.createElement('h2');
+    name.textContent = form.name.value;
+    partyListItem.appendChild(name);
+
     return partyListItem;
 }
