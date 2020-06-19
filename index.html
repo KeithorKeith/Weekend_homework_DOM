@@ -11,31 +11,32 @@
     <form id="new-item-form">
         <div id="form-wrapper">
           <div class="form-item">
-            <label for="title" class="primary">Starter</label>
-            <input type="text" id="title" required/>
+            <label for="name" class="primary">Name</label>
+            <input type="text" id="name" required/>
           </div>
           
-          <form id="new-item-form">
-            <div id="form-wrapper">
-              <div class="form-item">
-                <label for="title" class="primary">Main Course</label>
-                <input type="text" id="title" required/>
-              </div>
         
-              <form id="new-item-form">
-                <div id="form-wrapper">
-                  <div class="form-item">
-                    <label for="title" class="primary">Dessert</label>
-                    <input type="text" id="title" required/>
-                  </div>
+              <div class="form-item">
+                <label for="race" class="primary">Race</label>
+                <select id="race">
+                  <option value="" disabled selected></option>
+                  <option value="Elf">Elf</option>
+                  <option value="Ork">Ork</option>
+                  <option value="Human">Human</option>
+                  <option value="Dwarf">Dwarf</option>
+                </select>
+              </div>
 
                   <div class="form-item">
-                    <label for="wine-list" class="primary">Wine List</label>
-                    <select id="wine-list">
+                    <label for="class" class="primary">Class</label>
+                    <select id="class">
                       <option value="" disabled selected></option>
-                      <option value="Red">Red</option>
-                      <option value="White">White</option>
-                      <option value="Rose">Rose</option>
+                      <option value="Bard">Bard</option>
+                      <option value="Cleric">Cleric</option>
+                      <option value="Druid">Druid</option>
+                      <option value="Fighter">Fighter</option>
+                      <option value="Paladin">Paladin</option>
+                      <option value="Warlock">Warlock</option>
                     </select>
                   </div>
                 </div>
