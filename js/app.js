@@ -1,6 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
     const newItemForm = document.querySelector('#new-item-form');
     newItemForm.addEventListener('submit', handleNewItemFormSubmit);
+
+    const deleteAllButton = document.querySelector('#delete-all');
+    deleteAllButton.addEventListener('click', handleDeleteAllClick);
 })
 
 const handleNewItemFormSubmit = function (event) {
@@ -29,6 +32,10 @@ const createPartyListItem = function (form) {
     classification.textContent = form.classification.value;
     partyListItem.appendChild(classification);
 
-
     return partyListItem;
+}
+
+const handleDeleteAllClick = function (event) {
+    const partyList = document.querySelector('#party-list')
+    partyList.innerHTML = '';
 }
