@@ -10,19 +10,13 @@
         </style>
     </head>
     <body>
+        <h1 class="title">Character Creator</h1>
         <form id="new-item-form">
             <div id="form-wrapper">
             <div class="form-item">
                 <label for="name" class="primary">Name</label>
                 <input type="text" id="name" required/>
             </div>
-                <div id="die1" class="dice">0</div>
-                <div id="die2" class="dice">0</div>
-                <button id="roll-dice">Roll Dice</button>
-                <!-- <button id="roll-dice">Roll Stats</button> -->
-                <h2 id="status" style="clear:left;"></h2>
-                <input type="hidden" id="status-hidden" required/>
-
                 <div class="form-item">
                     <label for="race" class="primary">Race</label>
                     <select id="race">
@@ -46,8 +40,12 @@
                         <option value="Warlock">Warlock</option>
                         </select>
                     </div>
+                    <div id="die1" class="dice">0</div>
+                    <div id="die2" class="dice">0</div>
+                    <button id="roll-dice">Roll character</button>
+                    <input type="hidden" id="status-hidden" required/>
                     </div>
-                    <input type="submit" value="save"/>
+                    <!-- <input type="submit" value="save"/> -->
                 </form> 
 
                 <button id="delete-all">Disband Party</button>

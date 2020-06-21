@@ -1,12 +1,39 @@
-body {
-    background-color: rgb(59, 43, 36);
-  }
+body{
+    background-color: #c0b29c;
+    color: #1f2421;
 
-  div.dice{
+    padding: 10px;
+    margin: 10px;
+
+    
+}
+
+.title{
+    font-family: fantasy;
+    text-align: center;
+    color: rgb(119, 26, 26);
+    background-color: cornsilk;
+}
+
+.form-item{
+    text-align: center;
+    background-color: #c5b59c;
+    color: #1f2421;
+
+    padding: 10px;
+    margin: 10px;
+}
+
+.primary{
+    color: rgb(24, 9, 9);
+}
+
+
+div.dice{
     float:left;
-    width:32px
+    width:64px
     background: #f5f5f5;
-    border:#999 1px solid;
+    border:#999 3px solid;
     padding: 10px;
     font-size:24px;
     text-align:center;
