@@ -10,7 +10,7 @@
         </style>
     </head>
     <body>
-        <h1 class="title">Character Creator</h1>
+        <h1 class="title">Create a character</h1>
         <form id="new-item-form">
             <div id="form-wrapper">
             <div class="form-item">
@@ -42,15 +42,16 @@
                     </div>
                     <div id="die1" class="dice">0</div>
                     <div id="die2" class="dice">0</div>
-                    <button id="roll-dice">Roll character</button>
+                    <button class="button1" id="roll-dice">Roll Character</button>
+                    <h2 id="status" style="clear:left;"></h2>
                     <input type="hidden" id="status-hidden" required/>
                     </div>
                     <!-- <input type="submit" value="save"/> -->
                 </form> 
 
-                <button id="delete-all">Disband Party</button>
+                <button class="button1" id="delete-all">Disband Party</button>
 
               <h1>Party List</h1>
-              <ul id="party-list"></ul>
+              <ul class="party-list"id="party-list"></ul>
     </body>
 </html>

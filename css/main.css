@@ -24,10 +24,34 @@ body{
     margin: 10px;
 }
 
-.primary{
-    color: rgb(24, 9, 9);
+.button1{
+    border: 1px solid #d11616;
+    text-align: left;
+    background: none;
+    padding: 10px 20px;
+    font-size: large;
+    cursor; pointer;
+    margin: 10px;
+    transition: 0.9s;
+}
+.button1:hover{
+    color: #d11616;
+    background: rgb(24, 9, 9);
 }
 
+.party-list{
+    background: #e9dbb5;
+    font-weight: bolder;
+    font-family: fantasy;
+    color: crimson;
+}
+
+.primary{
+    color: rgb(24, 9, 9);
+    font-size: x-large;
+    font-weight: bold;
+    font-family: fantasy;
+}
 
 div.dice{
     float:left;
